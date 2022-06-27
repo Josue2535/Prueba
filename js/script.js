@@ -97,8 +97,9 @@ function volverAVotar() {
 const barraProgreso = document.getElementById('barra-progreso');
 const cantidadProgreso = document.getElementById('cantidad-progreso');
 let progreso = 0;
-let total = likes+dislikes;
+
 const intervalo = setInterval(() => {
+    let total = likes+dislikes; 
   progreso = (likes/total)*100;
   const porcentaje = `${progreso.toFixed(2)}%`;
   barraProgreso.style.width = porcentaje;
