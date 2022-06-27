@@ -79,7 +79,7 @@ main{
   }
   
   #barra-progreso {
-    background-color: lightgreen;
+    background-color: cyan;
     height: 100%;
     position: absolute;
   }
